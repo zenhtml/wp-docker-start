@@ -1,0 +1,3 @@
+.env
+wordpress/wp-content/debug.log
+mysql/data/
