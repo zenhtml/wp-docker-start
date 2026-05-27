@@ -1,3 +1,14 @@
 .env
 wordpress/wp-content/debug.log
+wordpress/wp-content/languages/
+wordpress/wp-content/upgrade/
+wordpress/wp-content/uploads/
 mysql/data/
+
+wordpress/wp-content/plugins/*
+!wordpress/wp-content/plugins/index.php
+!wordpress/wp-content/plugins/custom-plugins/
+
+wordpress/wp-content/themes/*
+!wordpress/wp-content/themes/index.php
+!wordpress/wp-content/themes/custom-themes/
