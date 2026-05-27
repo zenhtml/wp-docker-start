@@ -73,6 +73,7 @@ services:
       DB_NAME: ${DB_NAME}
       DB_USER: ${DB_USER}
       DB_PASSWORD: ${DB_PASSWORD}
+      WP_CLI_CACHE_DIR: /tmp/wp-cli-cache
     volumes:
       - wordpress_core:/var/www/html
       - ./wordpress/wp-config.php:/var/www/html/wp-config.php:ro
